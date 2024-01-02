@@ -20,7 +20,6 @@ body {
     align-items: center;
     padding-left: 1rem;
     padding-right: 1rem;
-    /* column-gap: calc(60vw - 200px); */
 }
 
 #pagelogo {
@@ -32,18 +31,19 @@ body {
 #pagename {
     color: #daf1de;
     display: inline-block;
-    padding-left: 0.5em;
+    padding-left: 1rem;
     margin: 0;
-    width: 40%;
-    padding-right: 66vw;
+    font-size: 50px;
+    width: 30vw;
+    margin-right: calc(67vw - 310px);
 }
 
 #pagequote {
     color: #daf1de;
     display: inline-block;
-    padding-right: 0.5em;
+    padding-right: 1rem;
     margin: 0;
-    width: 200px;
+    width: 240px;
 }
 
 #navbar {
@@ -58,7 +58,7 @@ body {
 #navbar a {
     text-decoration: none;
     color: #8eb69b;
-    width: 33%;
+    width: 20%;
     text-align: center;
     font-size: 15px;
 }
@@ -67,13 +67,62 @@ body {
     background-color: #8eb69b;
     color: #163832;
     height: 30px;
-    width: 33%;
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.home, .about, .contact {
+.home, .story, .blog, .project, .about {
     margin-top: 30px;
     margin-left: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+.home #main {
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    align-items: center;
+}
+
+.home #main h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.home #main h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.home #story {
+    background: url("https://nws.ams3.cdn.digitaloceanspaces.com/content/668BC1E948ADB83BC3443FBBAF59257C/3836-2048.webp");
+    display: flex;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.home #story1 {
+    border-radius: 10px 0 0 10px;
+    background-color: rgba(142, 182, 155, 0.9);
+    display: inline-block;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    width: calc(50vw - 38px);
+    height: 500px;
+    align-items: center;
+}
+
+.home #story2 {
+    border-radius: 0 10px 10px 0;
+    /* background-color: white; */
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    width: calc(50vw - 38px);
+    height: 500px;
 }
