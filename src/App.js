@@ -4,10 +4,12 @@ import Navigation from './Navigation';
 
 function App() {
   return (
-    <Router basename="raiofrain/">
+    <Router basename="raiofrain">
       <Navigation/>
       <Routes>
         <Route path="/" element={<Home/>} />
+      {/* </Routes>
+      <Routes> */}
         <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact/>} />
       </Routes>
