@@ -2,14 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Navigation() {
-    var home_click = () => {
-        
-    }
     return (
         <div className="nav">
             <div id="pageinfo">
                 <h1 id="pagename">RaiofRain</h1>
-                <h3 id="pagequote">Something about life <br/> let me tell you.</h3>
+                <h3 id="pagequote">Something about life <br/> lett me tell you.</h3>
             </div>
             <nav id="navbar">
                 <Link to="/">Home</Link>
