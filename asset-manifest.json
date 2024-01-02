@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/raiofrain/static/css/main.41cc79c4.css",
-    "main.js": "/raiofrain/static/js/main.60593845.js",
+    "main.css": "/raiofrain/static/css/main.d46ce67c.css",
+    "main.js": "/raiofrain/static/js/main.decbcfb4.js",
     "index.html": "/raiofrain/index.html",
-    "main.41cc79c4.css.map": "/raiofrain/static/css/main.41cc79c4.css.map",
-    "main.60593845.js.map": "/raiofrain/static/js/main.60593845.js.map"
+    "main.d46ce67c.css.map": "/raiofrain/static/css/main.d46ce67c.css.map",
+    "main.decbcfb4.js.map": "/raiofrain/static/js/main.decbcfb4.js.map"
   },
   "entrypoints": [
-    "static/css/main.41cc79c4.css",
-    "static/js/main.60593845.js"
+    "static/css/main.d46ce67c.css",
+    "static/js/main.decbcfb4.js"
   ]
 }
