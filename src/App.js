@@ -4,7 +4,7 @@ import Navigation from './Navigation';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/raiofrain">
       <Navigation/>
       <Routes>
         <Route path="/" element={<Home/>} />
