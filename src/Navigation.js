@@ -2,6 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Navigation() {
+    var home_click = () => {
+        
+    }
     return (
         <div className="nav">
             <div id="pageinfo">
@@ -9,7 +12,7 @@ function Navigation() {
                 <h3 id="pagequote">Something about life <br/> let me tell you.</h3>
             </div>
             <nav id="navbar">
-                <Link to="/home">Home</Link>
+                <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
                 <Link to="/contact">Contact</Link>
             </nav>
