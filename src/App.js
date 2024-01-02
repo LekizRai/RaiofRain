@@ -8,8 +8,6 @@ function App() {
       <Navigation/>
       <Routes>
         <Route path="/" element={<Home/>} />
-      {/* </Routes>
-      <Routes> */}
         <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact/>} />
       </Routes>
@@ -19,16 +17,26 @@ function App() {
 
 function Home() {
   return (
-    <h1>Hello world</h1>
+    <div className="home">
+      <h1>This is homepage</h1>
+    </div>
     );
 }
 
 function About() {
-  return <h1>About</h1>;
+  return (
+    <div className="about">
+      <h1>This is about page</h1>
+    </div>
+    );
 }
 
 function Contact() {
-  return <h1>Contact</h1>;
+  return (
+    <div className="contact">
+      <h1>This is contact page</h1>
+    </div>
+    );
 }
 
 export default App;
