@@ -22,27 +22,44 @@ function Home() {
     <div className="home">
       <div id="main">
         <h1>Welcome to my portfolio</h1>
-        <h3>My name is Rai, not the usual way my friends call me, but just call me Rai</h3>
+        <h3>Hi, I'm Rai. It is not the usual way my friends call me but just call me Rai</h3>
       </div>
       <div id="story">
         <div id="story1">
           <p style={{fontSize: '60px', fontWeight: '1000', margin: '0'}}>Let's first go through my stories</p>
-          <p style={{fontSize: '20px'}}>and discover what have made up myself so far.</p>
+          <p style={{fontSize: '20px', fontStyle: 'italic'}}>and discover what have made up myself so far.</p>
         </div>
         <div id="story2">
           <p>Do something</p>
         </div>
       </div>
       <div id="blog">
-        Or if you want to learn something not so new
+        <div id="blog1">
+          <p>Do something</p>
+        </div>
+        <div id="blog2">
+          <p style={{fontSize: '60px', fontWeight: '1000', margin: '0'}}>Or if you want to learn something not so new</p>
+          <p style={{fontSize: '20px', fontStyle: 'italic'}}>in this part I share interesting things I have learned.</p>
+        </div>
       </div>
       <div id="project">
-        Want to get inspiration ? Come to my projects
+        <div id="project1">
+          <p style={{fontSize: '60px', fontWeight: '1000', margin: '0'}}>Want to get inspiration ? Come to my projects</p>
+          <p style={{fontSize: '20px', fontStyle: 'italic'}}>and I am proud of what I have done.</p>
+        </div>
+        <div id="project2">
+          <p>Do something</p>
+        </div>
       </div>
       <div id="about">
-        More information about me
+      <div id="blog1">
+          <p>Do something</p>
+        </div>
+        <div id="blog2">
+          <p style={{fontSize: '60px', fontWeight: '1000', margin: '0'}}>Do not know who I am</p>
+          <p style={{fontSize: '20px', fontStyle: 'italic'}}>this part provide more information about me.</p>
+        </div>
       </div>
-      <h1>This is homepage</h1>
     </div>
   );
 }
