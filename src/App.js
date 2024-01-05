@@ -1,6 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+// import parse from "html-react-parser"
+// import Markdown from 'react-markdown';
 import Navigation from './Navigation';
+// import { useNavigate } from 'react-router-dom';
 
 function App() {
   return (
@@ -52,10 +56,10 @@ function Home() {
         </div>
       </div>
       <div id="about">
-      <div id="blog1">
+      <div id="about1">
           <p>Do something</p>
         </div>
-        <div id="blog2">
+        <div id="about2">
           <p style={{fontSize: '60px', fontWeight: '1000', margin: '0'}}>Do not know who I am</p>
           <p style={{fontSize: '20px', fontStyle: 'italic'}}>this part provide more information about me.</p>
         </div>
@@ -65,9 +69,16 @@ function Home() {
 }
 
 function Stories() {
+  // const navigate = useNavigate();
+
   return (
     <div className="story">
-      <h1>This is page for stories</h1>
+      <Link to="/story/first">
+        <div id="first" style={{width: "50vw", backgroundColor: "white", marginBottom: "100px"}}>
+          First story
+        </div>
+      </Link>
+      <div id="second" style={{width: "50vw", backgroundColor: "white"}}>Second story</div>
     </div>
   );
 }
@@ -91,7 +102,12 @@ function Projects() {
 function About() {
   return (
     <div className="about">
-      <h1>This is page about me</h1>
+      <div id="general">
+        <div id="avatar">
+          Avatar
+        </div>
+      </div>
+      <div id="detail">Details</div>
     </div>
     );
 }

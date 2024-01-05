@@ -13,6 +13,12 @@ body {
     justify-content: center;
 }
 
+.nav{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
 #pageinfo {
     background-color: #051f20;
     height: 100px;
@@ -218,4 +224,36 @@ body {
     width: calc(50vw - 37px);
     height: 500px;
     align-items: center;
+}
+
+.about {
+    display: flex;
+    position: relative;
+}
+
+.about #general {
+    display: inline-block;
+    width: 20vw;
+    height: 50px;
+    position: fixed;
+}
+
+.about #general #avatar {
+    display: flex;
+    background-color: white;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 7vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.about #detail {
+    display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+    width: 60vw;
+    height: 1000px;
+    margin-left: calc(20vw + 20px);
+    position: relative;
 }
